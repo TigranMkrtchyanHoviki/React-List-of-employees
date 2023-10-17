@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "id": 100,
+            "name": "Gegham",
+            "lastName": "Geghamyan"
+        },
+
+        {
+            "id": 101,
+            "name": "Tigran",
+            "lastName": "Exiazaryan"
+        },
+
+        {
+            "id": 102,
+            "name": "Tigran",
+            "lastName": "Mkrtchyan"
+        }
+    ]
+}

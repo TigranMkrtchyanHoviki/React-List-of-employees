@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Employee {
+    width: 100%;
+    background: #412580;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 0px 7px #000000;
+    border-radius: 10px;
+}
+
+.Name,
+.LastName,
+.Salary {
+    text-align: left;
+    padding: 5px;
+    padding: 11px 15px;
+    background: #c1c7c3;
+    border-radius: 5px;
+    color: #3f3b3b;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+.Salary,
+.LastName {
+    margin-right: 50px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #1586d2;
+    color: #ffffff;
+    box-shadow: 0px 0px 7px #ffffff;
+}
+
+.button:hover {
+    background: #0377ac;
+}

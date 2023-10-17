@@ -1,0 +1,53 @@
+.Container {
+    width: 1100px;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name,
+.LastName,
+.Salary {
+    margin-bottom: 20px;
+    padding: 10x;
+}
+
+.Name input,
+.LastName input,
+.Salary input,
+.div_button button {
+    width: 400px;
+    height: 50px;
+    padding: 15px;
+    font-size: 23px;
+    color: #a89f9f;
+    background: #efeeee;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #616161;
+}
+
+.Name div,
+.LastName div,
+.Salary div {
+    margin-bottom: 15px;
+    color: #777171;
+}
+
+.div_button button {
+    margin-top: 23px;
+    background: #032063;
+    transition: 0.2s;
+    text-shadow: 0px 0px 5px #8c8787;
+}
+
+.div_button button:hover {
+    font-size: 23.5px;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px #000000;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #aaa7a7;
+}
+
